@@ -49,14 +49,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "img/favicon.ico"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "/img/favicon.ico"
+        favicon16x16:  "/img/favicon-16x16.png"
+        favicon32x32:  "/img/favicon-32x32.png"
+        apple_touch_icon: "/img/apple-touch-icon.png"
+        safari_pinned_tab:  "/img/safari-pinned-tab.svg"
 
     label:
         text: "bayas.dev"
+        icon:  "/img/apple-touch-icon.png"
         #icon: /apple-touch-icon.png
         iconHeight: 35
 
@@ -65,7 +66,7 @@ params:
         enabled: true # needs to be explicitly set
         title: "I'm Victor Bayas \U0001F44B"
         subtitle: "Software engineering student based in Ecuador."
-        imageUrl: "img/avatar.png"
+        imageUrl: "/img/avatar.png"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my avatar
@@ -87,6 +88,8 @@ params:
           url: "https://twitter.com/VictorBayas_"
         - name: youtube
           url: "https://www.youtube.com/channel/UC-PchlPDgHkledbf9Io1dGA"
+        - name: email
+          url: "mailto:victor@bayas.dev"
 
     analytics:
         google:
