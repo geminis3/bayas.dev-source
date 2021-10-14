@@ -102,7 +102,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/geminis3/bayas.dev-source/content"
+        URL: "https://github.com/geminis3/bayas.dev-source"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
