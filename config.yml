@@ -15,6 +15,12 @@ minify:
     disableXML: true
     minifyOutput: true
 
+# allow iframes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Victor Bayas | bayas.dev
@@ -31,7 +37,7 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
@@ -64,10 +70,10 @@ params:
         imageHeight: 120
         imageTitle: my avatar
         buttons:
-            - name: Posts
+            - name: My Projects
+              url: projects
+            - name: Blog
               url: posts
-            - name: Tags
-              url: tags
 
     # home-info mode
     homeInfoParams:
@@ -96,7 +102,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/<path_to_repo>/content"
+        URL: "https://github.com/geminis3/bayas.dev-source/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -112,18 +118,34 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: about
+          name: About me
+          url: /about/
+          weight: 10
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 20
         - identifier: posts
           name: Posts
           url: /posts/
-          weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 20
-        - identifier: channel
-          name: Check out my YT channel
-          url: https://www.youtube.com/channel/UC-PchlPDgHkledbf9Io1dGA
           weight: 30
+        - identifier: channel
+          name: YT channel
+          url: https://www.youtube.com/channel/UC-PchlPDgHkledbf9Io1dGA
+          weight: 40
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 50
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
