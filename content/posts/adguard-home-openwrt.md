@@ -32,12 +32,21 @@ This router has an arm64 processor but you may need to replace it with the archi
     rm AdGuardHome_linux_arm64.tar.gz
     /opt/AdGuardHome/AdGuardHome -s install
 
-## 2. Point your DNS to the AGH instance
+## 2. Setup AGH
+
+Note that if your router is not at 192.168.1.1 then replace the IP address accordingly.
+
+- Go to 192.168.1.1:3000.
+- Setup the admin web interface to listen in 192.168.1.1 at port 8080.
+- Set DNS server to listen in 192.168.1.1 at port 5353.
+- Create an user and choose a strong password.
+
+## 3. Point your DNS to the AGH instance
 
 - Login into LuCi and go to DHCP and DNS section, set DNS forwardings to 192.168.1.1#5353.
 - Go to Resolv and Hosts Files tab and check the Ignore resolv file option.
 
-## 2.1 Redirect all DNS traffic to AGH
+## 3.1 Redirect all DNS traffic to AGH
 
 **This step is optional**, there are some apps and devices that ship with a harcoded DNS server making AGH useless unless we setup the following iptables rules:
 
