@@ -8,9 +8,9 @@ date: 2021-10-14
 
 Nvidia GPUs on Linux have always been a headache due to their propietary drivers, but this problem gets worse on Optimus laptops due to **inexistent dynamic power management** technologies on **pre-Turing cards** paired with Intel processors older than Coffee Lake. [See official Nvidia documentation on dynamic PM for Turing and newer cards](http://us.download.nvidia.com/XFree86/Linux-x86_64/465.31/README/dynamicpowermanagement.html).
 
-Turnisng off your Nvidia GPU will result in lower battery consumption when you don't need it (eg coding, watching videos, etc).
+Turning off your Nvidia GPU will result in lower battery consumption when you don't need it (eg coding, watching videos, etc).
 
-## 1. Blacklist nouveau nor Nvidia modules
+## 1. Blacklist nouveau and nvidia modules
 
 Create the file `/etc/modprobe.d/block-nvidia.conf`:
 
