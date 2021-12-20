@@ -4,7 +4,9 @@ summary: Save battery on your Optimus / gaming laptop by disabling the Nvidia GP
 date: 2021-10-14
 ---
 
-### GUI app to toggle ON/OFF your Nvidia GPU in just one-click is coming soon... 👀
+## 👀 Checkout [EnvyControl](/projects/envycontrol), the new tool for easy GPU switching for Nvidia Optimus Laptops on Linux
+
+___
 
 Nvidia GPUs on Linux have always been a headache due to their propietary drivers, but this problem gets worse on Optimus laptops due to **inexistent dynamic power management** technologies on **pre-Turing cards** paired with Intel processors older than Coffee Lake. [See official Nvidia documentation on dynamic PM for Turing and newer cards](http://us.download.nvidia.com/XFree86/Linux-x86_64/465.31/README/dynamicpowermanagement.html).
 
