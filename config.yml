@@ -1,5 +1,6 @@
 baseURL: "https://bayas.dev/"
 title: bayas.dev
+publishDir: "../html/homepage"
 paginate: 5
 theme: PaperMod
 
