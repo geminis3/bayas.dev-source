@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Blog
 summary: My adventures with programming, Linux and technology in general.
 description: My adventures with programming, Linux and technology in general.
 ---

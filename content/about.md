@@ -1,5 +1,20 @@
 ---
-title: About me
+title: About Me
+showtoc: false
+ShowBreadCrumbs: false
+hidemeta: true
 ---
 
-# A
+My name is Victor Bayas, I'm a Full-stack Developer currently working with Angular, NodeJS, Python and Lumen.
+
+I have been programming since my teenage years and tinkering with computers since I was a child.
+
+## Education
+- B.S. Software Engineering, [Universidad Iberoamericana del Ecuador](https://unibe.edu.ec) (WIP)
+
+### Spoken Languages
+- Spanish (mother tongue)
+- English
+
+## Did you know?
+This website runs inside a Docker container on a Raspberry Pi 4 🍇 with Ubuntu Server.

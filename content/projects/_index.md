@@ -1,5 +1,6 @@
 ---
-title: My Projects
-summary: Here are some of the projects I developed.
-description: Here are some of the projects I developed.
+title: Projects
+ShowBreadCrumbs: false
+summary: You can find my Open Source Software projects here.
+description: "You can find my Open Source Software projects here:"
 ---
