@@ -1,6 +1,6 @@
 baseURL: "https://bayas.dev/"
 title: BayasDev
-publishDir: "../html/homepage"
+publishDir: "/home/victor/Docker/NGINX/bayas.dev/html"
 paginate: 5
 theme: PaperMod
 
