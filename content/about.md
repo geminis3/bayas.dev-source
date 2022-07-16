@@ -17,4 +17,4 @@ I have been programming since my teenage years and tinkering with computers sinc
 - English
 
 ## Did you know?
-This website runs inside a Docker container on a Raspberry Pi 4 🍇 with Ubuntu Server.
+This website runs inside a Docker container on a Raspberry Pi 4 🍇.
