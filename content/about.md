@@ -15,6 +15,3 @@ I have been programming since my teenage years and tinkering with computers sinc
 ### Spoken Languages
 - Spanish (mother tongue)
 - English
-
-## Did you know?
-This website runs inside a Docker container on a Raspberry Pi 4 🍇.
