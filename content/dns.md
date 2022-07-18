@@ -4,14 +4,16 @@ summary: Public DNS over HTTPS / DNS over TLS server, block ads and trackers on 
 showtoc: false
 ShowBreadCrumbs: false
 hidemeta: true
+
+cover:
+    image: "/img/dns.png"
 ---
 
 Browse faster by blocking ads, trackers, spyware, malware, cryptominers and other annoyances right at the DNS level.
 
 ![dns](/img/dns.png)
 
-#### EC-1 Server
-- Location: UIO
+- Location: Ashburn, VA
 - DNSSEC: Enabled
 - DNS over HTTPS (DoH): `https://dns.bayas.dev`
 - DNS over TLS (DoT): `dns.bayas.dev`
