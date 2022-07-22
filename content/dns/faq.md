@@ -20,7 +20,7 @@ That's fine, several well-known upstream DNS servers are queried to provide fast
 
 ## Is DNSSEC enabled?
 
-Yes, you can verify [here](https://sigok.verteilesysteme.net) (a blank page should load).
+Yes.
 
 ## Is Strict SNI enabled?
 
