@@ -16,7 +16,7 @@ Learn how to use my encrypted DNS server on all your devices.
 4. In the textbox, type `dns.bayas.dev` or `dns-family.bayas.dev`
 5. Click Save.
 
-## iOS 14 and later
+## iOS 14 / macOS Big Sur and later
 
 ### Regular Server
 
