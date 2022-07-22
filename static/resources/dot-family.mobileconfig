@@ -8,9 +8,9 @@
 <key>DNSSettings</key>
 <dict>
 <key>DNSProtocol</key>
-<string>HTTPS</string>
-<key>ServerURL</key>
-<string>https://dns.bayas.dev/dns-query</string>
+<string>TLS</string>
+<key>ServerName</key>
+<string>dns-family.bayas.dev</string>
 </dict>
 <key>OnDemandRules</key>
 <array>
@@ -32,15 +32,15 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>Configures device to use BayasDev Encrypted DNS over HTTPS</string>
+<string>Configures device to use BayasDev Family Safe Encrypted DNS over TLS</string>
 <key>PayloadDisplayName</key>
-<string>BayasDev DNS over HTTPS</string>
+<string>BayasDev Family Safe DNS over TLS</string>
 <key>PayloadIdentifier</key>
-<string>com.apple.dnsSettings.managed.3b947522-fc87-4f3f-9b06-e1b499ab0072</string>
+<string>com.apple.dnsSettings.managed.fe19d4bc-4559-4dc7-8132-49d541c08052</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
-<string>fb6de5cf-12c1-4d39-a3b8-16f99f4a5d8e</string>
+<string>ecfe56fc-7ad1-4e44-b368-4a6c81eefdc8</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>ProhibitDisablement</key>
@@ -52,13 +52,13 @@
 <key>PayloadDisplayName</key>
 <string>Encrypted DNS (DoH, DoT)</string>
 <key>PayloadIdentifier</key>
-<string>com.notjakob.apple-dns.4b39169c-6f76-45c0-a207-6cb607e1c140</string>
+<string>com.notjakob.apple-dns.2f2a1175-c249-497d-ba01-6d3acd185471</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadType</key>
 <string>Configuration</string>
 <key>PayloadUUID</key>
-<string>26c8f40f-8623-4384-8ffd-6a507465f2ba</string>
+<string>5e39b3de-ed25-459a-8cf9-d75d88991736</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict>
