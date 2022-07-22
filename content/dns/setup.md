@@ -18,8 +18,15 @@ Learn how to use my encrypted DNS server on all your devices.
 
 ## iOS 14 and later
 
+### Regular Server
+
 - [DNS over HTTPS (DoH) profile](/resources/doh.mobileconfig)
 - [DNS over TLS (DoT) profile](/resources/dot.mobileconfig)
+
+### Family Safe Server
+
+- [DNS over HTTPS (DoH) profile](/resources/doh-family.mobileconfig)
+- [DNS over TLS (DoT) profile](/resources/dot-family.mobileconfig)
 
 1. Press “Allow” if asked to allow download.
 2. In iOS, go to Settings -> General -> Device Management.
